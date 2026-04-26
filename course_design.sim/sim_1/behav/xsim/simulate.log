@@ -1,0 +1,20 @@
+Time resolution is 1 ps
+--- 硬件计算开始 ---
+Time=              200000 | Dot Product Result (Hex): 017ca | (Dec):     6090
+Time=              210000 | Dot Product Result (Hex): 00b6b | (Dec):     2923
+Time=              220000 | Dot Product Result (Hex): fec95 | (Dec):    -4971
+Time=              230000 | Dot Product Result (Hex): ff87c | (Dec):    -1924
+Time=              240000 | Dot Product Result (Hex): 00839 | (Dec):     2105
+Time=              250000 | Dot Product Result (Hex): ff381 | (Dec):    -3199
+Time=              260000 | Dot Product Result (Hex): ff6af | (Dec):    -2385
+Time=              270000 | Dot Product Result (Hex): ffb28 | (Dec):    -1240
+Time=              280000 | Dot Product Result (Hex): ffdc6 | (Dec):     -570
+Time=              290000 | Dot Product Result (Hex): ffd97 | (Dec):     -617
+Time=              300000 | Dot Product Result (Hex): 0020c | (Dec):      524
+Time=              310000 | Dot Product Result (Hex): ff1c6 | (Dec):    -3642
+Time=              320000 | Dot Product Result (Hex): 00104 | (Dec):      260
+Time=              330000 | Dot Product Result (Hex): ff578 | (Dec):    -2696
+Time=              340000 | Dot Product Result (Hex): ff3ae | (Dec):    -3154
+Time=              350000 | Dot Product Result (Hex): ff3ae | (Dec):    -3154
+--- 仿真结束 ---
+$finish called at time : 630 ns : File "E:/VivadoProject/AC880/course_design/course_design.srcs/sim_1/new/tb_top.v" Line 48

@@ -1,0 +1,20 @@
+# Vivado 生成的临时文件夹和编译产物
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# 各种日志和辅助文件
+*.jou
+*.log
+*.str
+*.pb
+*.wdf
+*.dcp
+*.bit
+*.ltx
+
+# 如果你使用了Block Design，忽略生成的包装器（如果有需要的话）
+# *.bd
