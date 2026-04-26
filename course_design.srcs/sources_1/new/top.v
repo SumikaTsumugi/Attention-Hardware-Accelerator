@@ -44,7 +44,7 @@ module top_datapath #(
     );
 
     // 4. 实例化心脏：MAC 阵列
-    mac_array_16 u_mac_array (
+    mac_array u_mac_array (
         .clk        (clk),
         .rst_n      (rst_n),
         .valid_in   (w_q_valid_pre), // 使用对齐后的有效信号
