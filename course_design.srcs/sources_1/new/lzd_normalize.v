@@ -11,11 +11,11 @@ module lzd_normalize #(
     input  wire [IN_WIDTH-1:0]    sum_in,
     
     output reg                    valid_out,
-    output reg  [ADDR_WIDTH-1:0]  norm_addr, // 归一化后截取的高 8 位 (去查倒数表)
+    output reg  [ADDR_WIDTH-1:0]  norm_addr, // 归一化后截取的次高位往后 8 位 (去查倒数表)
     output reg  [SHIFT_WIDTH-1:0] shift_amt  // 记录左移了多少位 (极其重要，后面要用！)
 );
 
-    // 1. 组合逻辑：计算前导零个数
+    // 1. 组合逻辑：计算前导零个数，优先编码器
     reg [SHIFT_WIDTH-1:0] leading_zeros;
     integer i;
     

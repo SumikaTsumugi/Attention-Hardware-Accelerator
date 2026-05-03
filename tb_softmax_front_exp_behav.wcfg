@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_softmax_front_exp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_softmax_front_exp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="215.000 ns"></ZoomEndTime>
+      <Cursor1Time time="115.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="234"></NameColumnWidth>
+      <ValueColumnWidth column_width="178"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_softmax_front_exp/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/valid_in" type="logic">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/row_data_in" type="array">
+      <obj_property name="ElementShortName">row_data_in[319:0]</obj_property>
+      <obj_property name="ObjectShortName">row_data_in[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/u_dut_front/u_max_tree/max_out" type="array">
+      <obj_property name="ElementShortName">max_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">max_out[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/u_dut_front/u_max_tree/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/u_dut_front/u_delay_line/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[319:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/u_dut_front/u_sub_exp/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/u_dut_front/u_sub_exp/exp_data_out" type="array">
+      <obj_property name="ElementShortName">exp_data_out[255:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_data_out[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/check_exp" type="array">
+      <obj_property name="ElementShortName">check_exp[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">check_exp[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/tb_delay_pipe" type="array">
+      <obj_property name="ElementShortName">tb_delay_pipe[0:8][319:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_delay_pipe[0:8][319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/check_orig" type="array">
+      <obj_property name="ElementShortName">check_orig[0:15][19:0]</obj_property>
+      <obj_property name="ObjectShortName">check_orig[0:15][19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_softmax_front_exp/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+</wave_config>
