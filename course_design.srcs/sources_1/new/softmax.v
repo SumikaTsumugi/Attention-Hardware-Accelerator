@@ -4,7 +4,7 @@ module softmax #(
     parameter N          = 16,     // 并行通道数
     parameter IN_WIDTH   = 20,     // MAC阵列传来的原始打分位宽
     parameter EXP_WIDTH  = 16,     // 中间 e^x 结果位宽
-    parameter PROB_WIDTH = 16      // 最终输出的归一化概率位宽 (Q1.15)
+    parameter PROB_WIDTH = 16      // 最终输出的归一化概率位宽 (Q0.16）
 )(
     input  wire                       clk,
     input  wire                       rst_n,
